@@ -7,3 +7,12 @@
   display: flex;
   gap: 0.3125rem;
 }
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
