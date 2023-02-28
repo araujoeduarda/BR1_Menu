@@ -38,7 +38,6 @@ body {
 
 .conteudoPrincipal {
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .subtitulo {
@@ -75,7 +74,7 @@ body {
 }
 
 .conteudoPrincipal-pratos-link:hover {
-  box-shadow: 4px 4px 4px #bbbaba;
+  box-shadow: 4px 4px 4px #ccc;
 }
 
 .conteudoPrincipal-pratos-link:nth-child(even) a:before {
@@ -84,6 +83,10 @@ body {
 
 .conteudoPrincipal-pratos-link:nth-child(odd) a:before {
   background: url(../img/background2.svg) no-repeat;
+}
+
+.conteudoPrincipal-pratos-link:last-child {
+  margin-bottom: 40px;
 }
 
 .rodapePrincipal {
