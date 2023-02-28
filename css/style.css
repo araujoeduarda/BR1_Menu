@@ -37,8 +37,8 @@ body {
 }
 
 .conteudoPrincipal {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .subtitulo {
@@ -51,7 +51,7 @@ body {
 .conteudoPrincipal-pratos-link {
   height: 120px;
   background-color: #fff;
-  text-align: left;
+  text-align: center;
   margin: 1%;
   padding-top: 20px;
   transition: 0.3s;
@@ -75,7 +75,7 @@ body {
 }
 
 .conteudoPrincipal-pratos-link:hover {
-  box-shadow: 4px 4px 4px #ccc;
+  box-shadow: 4px 4px 4px #bbbaba;
 }
 
 .conteudoPrincipal-pratos-link:nth-child(even) a:before {
@@ -118,19 +118,15 @@ body {
   margin-top: 0;
 }
 
-.navmap-list-title-bancoDeDados {
-  color: #ec6e5a;
-  border-left: 4px solid #ec6e5a;
-}
-.navmap-list-title-framework {
+.navmap-list-title-nordestina {
   color: #ad85bf;
   border-left: 4px solid #ad85bf;
 }
-.navmap-list-title-frontend {
+.navmap-list-title-mineira {
   color: #25d285;
   border-left: 4px solid #25d285;
 }
-.navmap-list-title-backend {
+.navmap-list-title-frutosmar {
   color: #5ec6f3;
   border-left: 4px solid #5ec6f3;
 }
@@ -253,31 +249,5 @@ body {
   .rodapePrincipal-contatoForm {
     margin-top: 0;
     text-align: left;
-  }
-}
-
-@media (min-width: 1000px) {
-  .conteudoPrincipal-pratos-link {
-    margin: 1.333%;
-  }
-
-  .conteudoPrincipal-pratos-link:nth-child(3n) {
-    margin-right: 1.33%;
-  }
-
-  .conteudoPrincipal-pratos-link:nth-child(3n + 1) {
-    margin-left: 1.333%;
-  }
-
-  .conteudoPrincipal-pratos-link:nth-child(4n) {
-    margin-right: 0;
-  }
-
-  .conteudoPrincipal-pratos-link:nth-child(4n + 1) {
-    margin-left: 0;
-  }
-
-  .videoSobre-sobre {
-    margin-left: 1.5em;
   }
 }

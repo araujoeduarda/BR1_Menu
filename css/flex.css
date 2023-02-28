@@ -23,3 +23,17 @@
   flex-wrap: wrap;
   height: 15.625rem;
 }
+
+.conteudoPrincipal-pratos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: fit-content;
+}
+
+.conteudoPrincipal-pratos-link {
+  height: fit-content;
+  width: 900px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
