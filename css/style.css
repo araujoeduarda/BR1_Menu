@@ -75,6 +75,8 @@ body {
 
 .conteudoPrincipal-pratos-link:hover {
   box-shadow: 4px 4px 4px #ccc;
+  transform: scale(1.02);
+  transition: 1.2s;
 }
 
 .conteudoPrincipal-pratos-link:nth-child(even) a:before {
