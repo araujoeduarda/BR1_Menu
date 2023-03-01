@@ -1,5 +1,6 @@
 body {
-  background-color: #f2f5f7;
+  background-image: url(../img/paisagem.jpg);
+
   font-family: "Open Sans", Arial, sans-serif;
 }
 
@@ -76,7 +77,8 @@ body {
 .conteudoPrincipal-pratos-link:hover {
   box-shadow: 4px 4px 4px #ccc;
   transform: scale(1.02);
-  transition: 1.2s;
+  transition: 1.1s;
+  background-color: #ffffff;
 }
 
 .conteudoPrincipal-pratos-link:nth-child(even) a:before {
@@ -177,30 +179,30 @@ body {
   font-size: 16px;
 }
 
-.videoSobre {
+.localizacaoVantagens {
   background-color: #0f0f0f;
   padding: 25px 0;
 }
 
-.videoSobre-video {
+.localizacaoVantagens-mapa {
   max-width: 100%;
 }
 
-.videoSobre .container {
+.localizacaoVantagens .container {
   color: #fff;
 }
 
-.videoSobre-sobre-title {
+.localizacaoVantagens-sobre-title {
   font-size: 1.2em;
   font-weight: bolder;
 }
 
-.videoSobre-sobre {
+.localizacaoVantagens-sobre {
   font-size: 1.3em;
   line-height: 2;
 }
 
-.videoSobre-button {
+.localizacaoVantagens-button {
   border-radius: 8px;
   background-color: #ec6e5a;
   display: block;
@@ -211,7 +213,7 @@ body {
   outline: none;
 }
 
-.videoSobre-button:hover {
+.localizacaoVantagens-button:hover {
   background-color: #fa6048;
 }
 
