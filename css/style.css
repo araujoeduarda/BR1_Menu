@@ -26,6 +26,7 @@ body {
 }
 
 .cabecalhoPrincipal-nav-link {
+  font-size: large;
   padding: 10px;
   margin-bottom: 10px;
   color: #000;
@@ -195,8 +196,13 @@ body {
 }
 
 .localizacaoVantagens-sobre-title {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-family: "Merriweather", serif;
   font-weight: bolder;
+}
+.localizacaoVantagens-sobre-list {
+  font-family: "Lora", serif;
+  font-weight: 400;
 }
 
 .localizacaoVantagens-sobre {
@@ -206,17 +212,20 @@ body {
 
 .localizacaoVantagens-button {
   border-radius: 8px;
-  background-color: #ec6e5a;
+  background-color: green;
   display: block;
   color: #fff;
-  border: none;
+  font-weight: bolder;
   height: 50px;
   font-size: 0.8em;
   outline: none;
+  transition: transform 0.1s ease-in-out;
 }
 
 .localizacaoVantagens-button:hover {
-  background-color: #fa6048;
+  background-color: rgb(1, 94, 1);
+  transform: scale(1.1);
+  transition: 2.3s;
 }
 
 .rodapePrincipal-contatoForm-legend {
@@ -233,12 +242,13 @@ body {
   }
 
   .cabecalhoPrincipal-nav-link {
-    border-radius: 5px;
+    border-radius: 40px;
   }
 
   .cabecalhoPrincipal-nav-link:hover {
     color: #ffffff;
     background-color: green;
+    transition: 1.3s;
   }
 
   .cabecalhoPrincipal-titulo {
