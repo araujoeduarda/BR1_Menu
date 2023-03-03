@@ -14,6 +14,27 @@ body {
   padding: 30px 0;
 }
 
+.texto-Cadastro {
+  margin-top: 30px;
+}
+
+.container-vantagens {
+  display: flex;
+  direction: column;
+}
+
+.localizacaoVantagens-button {
+  margin-top: -3.125rem;
+  text-align: left;
+}
+
+.localizacaoVantagens-mapa {
+  display: block;
+  margin-left: auto;
+  margin-right: 3.125rem;
+  border-radius: 5px;
+}
+
 .cabecalhoPrincipal-titulo {
   font-weight: bold;
   font-size: 2em;
@@ -187,10 +208,6 @@ body {
   padding: 25px 0;
 }
 
-.localizacaoVantagens-mapa {
-  max-width: 100%;
-}
-
 .localizacaoVantagens .container {
   color: #fff;
 }
@@ -203,6 +220,7 @@ body {
 .localizacaoVantagens-sobre-list {
   font-family: "Lora", serif;
   font-weight: 400;
+  margin-bottom: 150px;
 }
 
 .localizacaoVantagens-sobre {
