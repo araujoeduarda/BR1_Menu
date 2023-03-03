@@ -212,6 +212,10 @@ body {
   color: #fff;
 }
 
+.localizacaoVantagens-sobre {
+  margin-bottom: 20px;
+}
+
 .localizacaoVantagens-sobre-title {
   font-size: 1.8em;
   font-family: "Merriweather", serif;
