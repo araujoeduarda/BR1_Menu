@@ -1,7 +1,7 @@
 body {
   background-image: url(../img/paisagem.jpg);
-
   font-family: "Open Sans", Arial, sans-serif;
+  height: 100vh;
 }
 
 .container {
@@ -15,7 +15,8 @@ body {
 }
 
 .texto-Cadastro {
-  margin-top: -0.625rem;
+  font-weight: bold;
+  margin-top: -0.125rem;
 }
 
 .container-vantagens {
@@ -204,8 +205,7 @@ body {
 }
 
 .localizacaoVantagens {
-  background-color: #0f0f0f;
-  padding: 25px 0;
+  color: #0f0f0f;
 }
 
 .localizacaoVantagens .container {
@@ -217,13 +217,13 @@ body {
 }
 
 .localizacaoVantagens-sobre-title {
-  font-size: 1.8em;
+  font-size: 3em;
   font-family: "Merriweather", serif;
   font-weight: bolder;
 }
 .localizacaoVantagens-sobre-list {
   font-family: "Lora", serif;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 80px;
 }
 
@@ -242,6 +242,7 @@ body {
   font-size: 0.8em;
   outline: none;
   transition: transform 0.1s ease-in-out;
+  border: none;
 }
 
 .localizacaoVantagens-button:hover {
@@ -254,40 +255,40 @@ body {
   margin-bottom: 10px;
 }
 
+.container {
+  width: 85%;
+}
+
+.subtitulo {
+  text-align: left;
+}
+
+.cabecalhoPrincipal-nav-link {
+  border-radius: 40px;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+  color: #ffffff;
+  background-color: green;
+  transition: 1.3s;
+}
+
+.cabecalhoPrincipal-titulo {
+  margin: 0;
+}
+
+.cabecalhoPrincipal-nav {
+  width: auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+  width: auto;
+  margin: 0 0 0 10px;
+}
+
+.rodapePrincipal-contatoForm {
+  margin-top: 0;
+  text-align: left;
+}
 @media (min-width: 769px) {
-  .container {
-    width: 85%;
-  }
-
-  .subtitulo {
-    text-align: left;
-  }
-
-  .cabecalhoPrincipal-nav-link {
-    border-radius: 40px;
-  }
-
-  .cabecalhoPrincipal-nav-link:hover {
-    color: #ffffff;
-    background-color: green;
-    transition: 1.3s;
-  }
-
-  .cabecalhoPrincipal-titulo {
-    margin: 0;
-  }
-
-  .cabecalhoPrincipal-nav {
-    width: auto;
-  }
-
-  .cabecalhoPrincipal-nav-link {
-    width: auto;
-    margin: 0 0 0 10px;
-  }
-
-  .rodapePrincipal-contatoForm {
-    margin-top: 0;
-    text-align: left;
-  }
 }
