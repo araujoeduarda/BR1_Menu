@@ -287,7 +287,7 @@ body {
 @media (max-width: 869px) {
   .cabecalhoPrincipal-nav a {
     flex-direction: column;
-    background-color: rgb(216, 216, 216);
+    background-color: #f7f4ed;
     font-size: 10px;
   }
   .cabecalhoPrincipal .container {
@@ -357,6 +357,10 @@ body {
   }
   .conteudoPrincipal-pratos-link:last-child {
     margin-bottom: 1px;
+  }
+
+  .localizacaoVantagens-sobre-item {
+    margin-bottom: 5px;
   }
   .localizacaoVantagens-button {
     display: none;
