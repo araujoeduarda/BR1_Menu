@@ -1,3 +1,6 @@
+@import url(./reset.css);
+@import url(./flex.css);
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   height: 100vh;
