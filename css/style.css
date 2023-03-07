@@ -73,8 +73,9 @@ main {
   font-family: "Merriweather", serif;
   font-weight: bold;
   font-size: 42px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 10px;
+  padding-top: 32px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
