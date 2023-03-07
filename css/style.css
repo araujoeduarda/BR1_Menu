@@ -3,6 +3,10 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   height: 100vh;
 }
+.localizacaoVantagens-mapa {
+  width: 300px;
+  height: 150px;
+}
 
 .container {
   width: 94%;
@@ -22,6 +26,7 @@ body {
 .container-vantagens {
   display: flex;
   direction: column;
+  flex-wrap: wrap;
 }
 
 .localizacaoVantagens-button {
@@ -330,5 +335,12 @@ body {
     margin-bottom: 100px;
     align-items: baseline;
     flex-direction: row-reverse;
+  }
+  .localizacaoVantagens-sobre-list {
+    display: none;
+  }
+  .localizacaoVantagens-mapa {
+    width: 200px;
+    height: 80px;
   }
 }
