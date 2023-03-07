@@ -1,7 +1,11 @@
 body {
-  background-image: url(../img/paisagem.jpg);
   font-family: "Open Sans", Arial, sans-serif;
   height: 100vh;
+  background-color: #12181d;
+}
+
+main {
+  background-image: url(../img/paisagem.jpg);
 }
 .localizacaoVantagens-mapa {
   width: 300px;
@@ -69,7 +73,8 @@ body {
   font-family: "Merriweather", serif;
   font-weight: bold;
   font-size: 42px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -199,7 +204,8 @@ body {
 }
 
 .localizacaoVantagens {
-  color: #0f0f0f;
+  background-color: #000;
+  padding: 20px;
 }
 
 .localizacaoVantagens .container {
@@ -240,7 +246,7 @@ body {
 }
 
 .localizacaoVantagens-button:hover {
-  background-color: rgb(1, 94, 1);
+  background-color: #12181d;
   transform: scale(1.1);
   transition: 2.3s;
 }
@@ -263,7 +269,7 @@ body {
 
 .cabecalhoPrincipal-nav-link:hover {
   color: #ffffff;
-  background-color: green;
+  background-color: #12181d;
   transition: 1.3s;
 }
 
