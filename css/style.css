@@ -6,6 +6,10 @@ body {
 .localizacaoVantagens-mapa {
   width: 300px;
   height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: 3.125rem;
+  border-radius: 5px;
 }
 
 .container {
@@ -32,13 +36,6 @@ body {
 .localizacaoVantagens-button {
   margin-top: -3.125rem;
   text-align: left;
-}
-
-.localizacaoVantagens-mapa {
-  display: block;
-  margin-left: auto;
-  margin-right: 3.125rem;
-  border-radius: 5px;
 }
 
 .cabecalhoPrincipal-titulo {
@@ -336,11 +333,48 @@ body {
     align-items: baseline;
     flex-direction: row-reverse;
   }
+  .localizacaoVantagens-sobre-title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .localizacaoVantagens {
+    background-color: #12181d;
+  }
   .localizacaoVantagens-sobre-list {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .container-vantagens {
     display: none;
   }
+  .localizacaoVantagens-sobre {
+    margin-bottom: none;
+    background-color: #12181d;
+  }
+  .conteudoPrincipal-pratos-link:last-child {
+    margin-bottom: 1px;
+  }
+  .localizacaoVantagens-button {
+    display: none;
+  }
+
   .localizacaoVantagens-mapa {
-    width: 200px;
-    height: 80px;
+    display: none;
+  }
+  .rodapePrincipal-navMap {
+    display: none;
+  }
+  .rodapePrincipal-patrocinadores-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rodapePrincipal-contatoForm {
+    display: none;
   }
 }
