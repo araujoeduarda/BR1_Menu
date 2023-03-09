@@ -83,7 +83,7 @@ main {
 }
 
 .conteudoPrincipal-pratos-link {
-  height: 120px;
+  height: auto;
   background-color: #fff;
   text-align: center;
   margin: 1%;
@@ -313,7 +313,7 @@ main {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
   }
 
   .container .subtitulo {
