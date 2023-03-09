@@ -195,7 +195,7 @@ main {
 .rodapePrincipal-contatoForm-submit {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #4dba7a;
+  background-color: #163a25;
   color: #fff;
   cursor: pointer;
 }
@@ -203,7 +203,7 @@ main {
 .rodapePrincipal-contatoForm-submit,
 .rodapePrincipal-contatoForm-emailInput {
   outline: 0;
-  border: 1px solid #4dba7a;
+  border: 1px solid #163a25;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -256,8 +256,9 @@ main {
   transition: 2.3s;
 }
 
-.rodapePrincipal-contatoForm-legend {
-  margin-bottom: 10px;
+.email-contato {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .container {
