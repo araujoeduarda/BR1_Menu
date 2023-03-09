@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./flex.css);
+@import url(./anime.css);
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
