@@ -427,6 +427,7 @@ main {
   }
 
   .cabecalhoPrincipal-nav-link {
-    font-size: 8px;
+    font-size: 0.5rem;
+    font-weight: bold;
   }
 }
