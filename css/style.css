@@ -24,6 +24,10 @@ main {
   width: 94%;
   margin: 0 auto;
 }
+.container5 {
+  display: flex;
+  justify-content: space-between;
+}
 
 .cabecalhoPrincipal {
   background-color: #ffffff;
@@ -401,7 +405,7 @@ main {
   .rodapePrincipal-navMap {
     display: none;
   }
-  .rodapePrincipal-patrocinadores-list {
+  .container .rodapePrincipal-patrocinadores-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -409,6 +413,10 @@ main {
 
   .rodapePrincipal-contatoForm {
     display: none;
+  }
+  .container5 {
+    display: flex;
+    justify-content: center;
   }
 }
 
