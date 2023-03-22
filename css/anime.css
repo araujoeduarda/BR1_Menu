@@ -18,5 +18,5 @@
 .anime {
   opacity: 1;
   transform: none;
-  transition: transform 0.8s, opacity 0.8s;
+  transition: transform 0.7s, opacity 1.3s;
 }
